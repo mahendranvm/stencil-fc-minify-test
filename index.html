@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test My Stencil Component</title>
+  <!-- Load the Stencil component from the dist folder -->
+  <script type="module" src="./dist/components/my-component.js"></script>
+</head>
+<body>
+  <h1>Testing Stencil Component</h1>
+
+  <!-- Use the generated Stencil component -->
+  <my-component first="Stencil" middle="'Don't call me a framework'" last="JS"></my-component>
+
+  <!-- Optional styling to see the component better -->
+  <style>
+    my-component {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid #333;
+    }
+  </style>
+</body>
+</html>
